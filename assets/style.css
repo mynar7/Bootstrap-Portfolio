@@ -1,0 +1,61 @@
+body {
+    background-image: url(/assets/images/sayagata-400px.png);
+    color: gray;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+}
+
+p {
+    line-height: 1.5;
+    color: gray;
+    font-size: 22px;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 275px;
+    font-size: 25px;
+    line-height: 1.2;
+
+}
+.navbar-header {
+    background-color: rgb(45,95,115);
+    color: white;
+}
+
+.navbar-default .navbar-nav>li {
+    font-family: 'Rock Salt', cursive;    
+    font-size: 20px;
+    border-left: 2px gray solid;
+    margin-top: 2px;
+}
+
+.navbar-default .navbar-nav li:first-of-type {
+    border-left: 0px;
+}
+
+.panel .panel-header {
+    color: rgb(45,95,115);
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.nametag {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(45,95,115);
+
+}
+
+.cfooter h3{
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+}
