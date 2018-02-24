@@ -9,6 +9,11 @@ p {
     line-height: 1.5;
     color: gray;
     font-size: 22px;
+    padding: 0 15px;
+}
+
+h1 {
+    padding: 0 15px;
 }
 
 .navbar-default .navbar-brand {
@@ -27,20 +32,21 @@ p {
 }
 
 .navbar-default .navbar-nav>li {
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav>li>a {
     font-family: 'Rock Salt', cursive;    
     font-size: 20px;
+    padding: 0 15px;
     border-left: 2px gray solid;
-    margin-top: 2px;
 }
 
-.navbar-default .navbar-nav li:first-of-type {
+.navbar-default .navbar-nav li:first-of-type>a {
     border-left: 0px;
 }
-
 .panel .panel-header {
     color: rgb(45,95,115);
-    font-family: 'Permanent Marker', cursive;
-    
+    font-family: 'Permanent Marker', cursive;    
 }
 
 .nametag {
@@ -55,7 +61,36 @@ p {
 
 }
 
-.cfooter h3{
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0 0 68px;
+}
+
+footer {
     font-family: 'Titillium Web', sans-serif;
-    color: gray;
+    color: white;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    bottom: 0; 
+    border-top: rgb(45,95,115) 8px solid;
+    background-color: gray;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-nav>li>a {
+        border-left: 0;
+        text-align: right;
+    }    
+
+    .navbar-default .navbar-nav>li {
+        margin: 25px 0;
+    }
+    #bs-example-navbar-collapse-1 {
+        background-color: white;
+    }
 }
